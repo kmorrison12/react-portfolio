@@ -17,7 +17,7 @@ export default function ProjectCard() {
         },
         {
             title: "Hydro Home",
-            description: "Hydro Home allows users to set a water consumption goal and allows them to enter and track their daily water consumption",
+            description: "Hydro Home allows users to set a water consumption goal and allows them to enter and track their daily water consumption.",
             deployed: "https://ancient-anchorage-85467.herokuapp.com/login",
             repo: "https://github.com/beefbones/hydro-home",
             image: {Hydro}
@@ -38,7 +38,7 @@ export default function ProjectCard() {
         },
         {
             title: "Text Editor",
-            description: "This qpplication allows users to create notes or code snippets with or without an internet connection then reliably retrieve them for later use",
+            description: "This qpplication allows users to create notes or code snippets with or without an internet connection then reliably retrieve them for later use.",
             deployed: "https://nameless-mountain-90856.herokuapp.com/",
             repo: "https://github.com/kmorrison12/text-editor",
             image: {TextEditor}
@@ -53,10 +53,12 @@ export default function ProjectCard() {
     ]
 
     return (
-        <div>
+        <div class="grid grid-cols-3 justify-items-center">
             {
                 projects.map(element => {
-                    return <Projects title={element.title} description={element.description} deployed={element.deployed} repo={element.repo} image={element.image}></Projects>
+                    return <div>
+                        <Projects title={element.title} description={element.description} deployed={element.deployed} repo={element.repo} image={element.image}></Projects>
+                        </div>
                 })
             }
         </div>

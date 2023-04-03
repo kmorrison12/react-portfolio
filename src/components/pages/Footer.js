@@ -1,5 +1,6 @@
 import React from 'react'
 import kmgraphic from '../../assests/km-graphic.png'
+import Resume from '../../assests/files/resume.pdf'
 
 export default function Footer() {
         return (
@@ -8,8 +9,8 @@ export default function Footer() {
                                 <div class="md:flex md:justify-between">
                                         <div class="mb-6 md:mb-0">
                                                 <a class="flex items-center">
-                                                        <img src={kmgraphic} class="h-20 mr-3" />
-                                                        <span class="self-center text-3xl font-semibold whitespace-nowrap text-sky-900">Katie Morrison</span>
+                                                        <img src={kmgraphic} class="h-10 mr-3" />
+                                                        <span class="self-center text-3xl italic pb-1.5 whitespace-nowrap text-sky-900">Katie Morrison</span>
                                                 </a>
                                         </div>
                                         <div class="sm:flex sm:items-center sm:justify-between">
@@ -29,6 +30,10 @@ export default function Footer() {
                                                                 </svg>
                                                                 <span class="sr-only">LinkedIn account</span>
                                                         </a>
+                                                        <a type="button" href={Resume} download="Resume">
+                                                                <button type="button" class="px-3 py-2 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Download Resume</button>
+                                                        </a>
+
                                                 </div>
                                         </div>
                                 </div>

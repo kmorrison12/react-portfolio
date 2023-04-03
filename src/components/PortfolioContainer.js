@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import About from './pages/About';
-import Projects from './pages/Projects';
 import ContactForm from './pages/ContactForm';
+import ProjectCard from './pages/ProjectCard';
 
 export default function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
 
     const renderPage = () => {
         if (currentPage === 'Projects') {
-            return <Projects />;
+            return <ProjectCard />;
         }
         if (currentPage === 'Contact') {
             return <ContactForm />;
