@@ -13,43 +13,44 @@ export default function ProjectCard() {
             description: "Slashed and Smashed is an application for broswing horror movies by your selected streaming service then provides a random horror themed cocktail to pair with the movie.",
             deployed: "https://jnighton.github.io/Horror-Finder/",
             repo: "https://github.com/jNighton/Horror-Finder",
-            image: {Slashed}
+            image: Slashed 
         },
         {
             title: "Hydro Home",
             description: "Hydro Home allows users to set a water consumption goal and allows them to enter and track their daily water consumption.",
             deployed: "https://ancient-anchorage-85467.herokuapp.com/login",
             repo: "https://github.com/beefbones/hydro-home",
-            image: {Hydro}
-        },
-        {
-            title: "Team Profile Generator",
-            description: "This Team Profile Generator is a command line application that can be used to build a team profile.",
-            deployed: "https://github.com/kmorrison12/team-profile-generator",
-            repo: "https://github.com/kmorrison12/team-profile-generator",
-            image: {TeamProfile}
+            image:  Hydro 
         },
         {
             title: "Work Day Scheduler",
             description: "The Work Day Schedular application allows users to plan their day by adding tasks or appointments to the indicated time.",
             deployed: "https://kmorrison12.github.io/work-day-scheduler/",
             repo: "https://github.com/kmorrison12/work-day-scheduler",
-            image: {WorkDay}
+            image:  WorkDay 
         },
         {
             title: "Text Editor",
             description: "This qpplication allows users to create notes or code snippets with or without an internet connection then reliably retrieve them for later use.",
             deployed: "https://nameless-mountain-90856.herokuapp.com/",
             repo: "https://github.com/kmorrison12/text-editor",
-            image: {TextEditor}
+            image: TextEditor 
+        },
+        {
+            title: "Team Profile Generator",
+            description: "This Team Profile Generator is a command line application that can be used to build a team profile.",
+            deployed: "https://github.com/kmorrison12/team-profile-generator",
+            repo: "https://github.com/kmorrison12/team-profile-generator",
+            image: TeamProfile 
         },
         {
             title: "ReadMe Generator",
             description: "This ReadMe Generator is a command line application that can be used to generate a professional ReadMe based on user input.",
             deployed: "https://github.com/kmorrison12/readme-generator",
             repo: "https://github.com/kmorrison12/readme-generator",
-            image: {ReadMe}
+            image:  ReadMe 
         },
+
     ]
 
     return (
@@ -58,11 +59,11 @@ export default function ProjectCard() {
                 projects.map(element => {
                     return <div>
                         <Projects title={element.title} description={element.description} deployed={element.deployed} repo={element.repo} image={element.image}></Projects>
-                        </div>
+                    </div>
                 })
             }
         </div>
-        )
+    )
 
 }
 

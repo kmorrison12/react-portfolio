@@ -21,7 +21,7 @@ export default function ContactForm() {
 
                     <div>
                         <label for="Description" class="text-gray-700">Message</label>
-                        <textarea class="block  mt-2 w-full  rounded-lg border border-gray-200 bg-white px-4 h-32 py-2.5 text-gray-300 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"></textarea>
+                        <textarea class="block  mt-2 w-full  rounded-lg border border-gray-200 bg-white px-4 h-32 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40"></textarea>
                     </div>
 
                 <div class="flex justify-end mt-6">

@@ -1,11 +1,10 @@
 import React from 'react'
 
-
 export default function Projects({ title, description, deployed, repo, image }) {
     return (
             <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl bg-white border-sky-900 rounded-t-lg m-5">
                 <a href={deployed}>
-                    <img class="rounded-t-lg" src='https://images.unsplash.com/photo-1680007631114-cc0b37816fff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' alt="" />
+                    <img class="rounded-t-lg" src={image} alt="" />
                 </a>
                 <div class="p-5">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-sky-900">{title}</h5>
