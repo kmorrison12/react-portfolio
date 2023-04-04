@@ -17,6 +17,5 @@ export default function Projects({ title, description, deployed, repo, image }) 
                     </a>
                 </div>
             </div>
-
     )
 }

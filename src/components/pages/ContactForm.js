@@ -3,7 +3,8 @@ import React from "react"
 export default function ContactForm() {
 
     return (
-        <section class="max-w-4xl p-6 m-10 mx-auto bg-white rounded-md border border-gray-300 shadow-xl">
+        <div className="min-h-screen">
+        <section class=" max-w-4xl p-6 m-10 mx-auto bg-white rounded-md border border-gray-300 shadow-xl">
             <h2 class="text-lg font-semibold text-gray-700 capitalize">Contact Me!</h2>
 
             <form>
@@ -29,6 +30,7 @@ export default function ContactForm() {
                 </div>
             </form>
         </section>
+        </div>
 
     );
 }

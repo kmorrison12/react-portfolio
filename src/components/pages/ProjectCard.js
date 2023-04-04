@@ -3,7 +3,7 @@ import Hydro from '../../assests/hydro-home-logo.png'
 import TeamProfile from '../../assests/team-profile.jpg'
 import WorkDay from '../../assests/scheduler-screenshot.png'
 import TextEditor from '../../assests/text-editor.png'
-import ReadMe from '../../assests/readme-generator.png'
+import SwapShop from '../../assests/swapshop.png'
 import Projects from './Projects'
 
 export default function ProjectCard() {
@@ -21,6 +21,13 @@ export default function ProjectCard() {
             deployed: "https://ancient-anchorage-85467.herokuapp.com/login",
             repo: "https://github.com/beefbones/hydro-home",
             image:  Hydro 
+        },
+        {
+            title: "SwapShop",
+            description: "SwapShop is a revolutionary app that lets you trade items you no longer need for things you want! Say goodbye to the hassle of selling or throwing away unwanted items.",
+            deployed: "https://swopshop.herokuapp.com/",
+            repo: "https://github.com/beefbones/swapshop",
+            image: SwapShop
         },
         {
             title: "Work Day Scheduler",
@@ -43,14 +50,6 @@ export default function ProjectCard() {
             repo: "https://github.com/kmorrison12/team-profile-generator",
             image: TeamProfile 
         },
-        {
-            title: "ReadMe Generator",
-            description: "This ReadMe Generator is a command line application that can be used to generate a professional ReadMe based on user input.",
-            deployed: "https://github.com/kmorrison12/readme-generator",
-            repo: "https://github.com/kmorrison12/readme-generator",
-            image:  ReadMe 
-        },
-
     ]
 
     return (
