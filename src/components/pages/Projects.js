@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function Projects({ title, description, deployed, repo, image }) {
     return (
-        <div className=""> 
             <div class="max-w-sm border border-gray-200 rounded-lg shadow-xl bg-white border-sky-900 m-5">
                 <a href={deployed}>
                     <img class="rounded-t-lg" src={image} alt="" />
@@ -18,41 +17,5 @@ export default function Projects({ title, description, deployed, repo, image }) 
                     </a>
                 </div>
             </div>
-
-
-
-
- {/* <div>
-      <div
-        id="item-grid"
-        className="mt-auto relative py-20 md:py-24 bg-amber-100"
-      >
-          <div className="flex flex-wrap flex-row -mx-4 text-center">
-                <div
-                  className="flex mb-12 px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6"
-                  key={items._id}
-                >
-                  <div className="flex flex-col bg-white rounded-xl overflow-hidden shadow-2xl">
-                    <div className="relative overflow-hidden">
-                      <div className="absolute inset-0 hover:bg-black opacity-0 transition duration-700 hover:opacity-20"></div>
-                      <img
-                        className="max-w-full h-full"
-                        src={items.iconURL}
-                        alt="item"
-                      ></img>
-                    </div>
-                    <div className="flex flex-shrink py-6 px-8 flex-1">
-                      <div className="mb-2 px-12">
-                        <h3 className="text-xl leading-normal mb-4 font-bold text-gray-800">
-                          {items.title}
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-          </div>
-        </div>
-      </div> */}
-    </div>
     )
 }
