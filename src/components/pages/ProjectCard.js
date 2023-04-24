@@ -53,7 +53,7 @@ export default function ProjectCard() {
     ]
 
     return (
-        <div class="grid grid-cols-3 justify-items-center">
+        <div class="container mt-auto grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 justify-items-center">
             {
                 projects.map(element => {
                     return <div>
