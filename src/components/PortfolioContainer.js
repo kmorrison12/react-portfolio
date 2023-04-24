@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
 import About from './pages/About';
-import ContactForm from './pages/ContactForm';
+// import ContactForm from './pages/ContactForm';
 import ProjectCard from './pages/ProjectCard';
 import Resume from './pages/Resume';
 
@@ -12,9 +12,9 @@ export default function PortfolioContainer() {
         if (currentPage === 'Projects') {
             return <ProjectCard />;
         }
-        if (currentPage === 'Contact') {
-            return <ContactForm />;
-        }
+        // if (currentPage === 'Contact') {
+        //     return <ContactForm />;
+        // }
         if (currentPage === 'Resume') {
             return <Resume />
         }

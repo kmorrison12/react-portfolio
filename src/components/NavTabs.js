@@ -11,9 +11,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('Projects')}
                 className={currentPage === 'Projects' ? 'mx-2 border-b-2 text-gray-50 border-pink-800 sm:mx-6' : 'mx-2 border-b-2 border-transparent hover:text-gray-400 hover:border-pink-800 sm:mx-6'}>Projects</a>
 
-            <a href="#contact"
+            {/* <a href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'mx-2 border-b-2 text-gray-50 border-pink-800 sm:mx-6' : 'mx-2 border-b-2 border-transparent hover:text-gray-400 hover:border-pink-800 sm:mx-6'}>Contact</a>
+                className={currentPage === 'Contact' ? 'mx-2 border-b-2 text-gray-50 border-pink-800 sm:mx-6' : 'mx-2 border-b-2 border-transparent hover:text-gray-400 hover:border-pink-800 sm:mx-6'}>Contact</a> */}
 
             <a href="#Resume"
                 onClick={() => handlePageChange('Resume')}
